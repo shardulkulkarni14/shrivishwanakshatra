@@ -1,0 +1,272 @@
+{
+  "common": {
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "contact": "Contact Us"
+    },
+    "cta": {
+      "bookAppointment": "Book Appointment",
+      "callNow": "Call Now",
+      "contactUs": "Contact Us",
+      "viewAllServices": "View All Services",
+      "exploreServices": "Explore Services",
+      "sendMessage": "Send Message",
+      "sending": "Sending...",
+      "returnHome": "Return to Home"
+    },
+    "brand": {
+      "name": "Shri Vishwa Nakshatra",
+      "tagline": "Ayurvedic Clinic & Panchakarma Centre",
+      "taglineShort": "Ayurvedic Clinic",
+      "motto": "Ancient Wisdom for Modern Wellness",
+      "mottoWithSymbol": "|| Shri || Ancient Wisdom for Modern Wellness",
+      "description": "Shri Vishwa Nakshatra Ayurvedic Chikitsalaya & Panchakarma Kendra - Bringing ancient Ayurvedic healing wisdom to modern healthcare."
+    },
+    "contact": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "hours": "Clinic Hours",
+      "hoursValue": "Mon - Sat: 9:00 AM - 8:00 PM"
+    },
+    "footer": {
+      "quickLinks": "Quick Links",
+      "ourTreatments": "Our Treatments",
+      "contactUs": "Contact Us",
+      "copyright": "Shri Vishwa Nakshatra Ayurvedic Clinic. All rights reserved.",
+      "doctor": "Dr. Shreya Kulkarni - B.A.M.S. | Reg No: PR-1408/A/2022"
+    },
+    "language": {
+      "select": "Language",
+      "en": "English",
+      "hi": "हिंदी",
+      "te": "తెలుగు"
+    }
+  },
+  "home": {
+    "meta": {
+      "title": "Shri Vishwa Nakshatra Ayurvedic Clinic | Panchakarma Centre Hyderabad",
+      "description": "Best Ayurvedic clinic in Miyapur, Hyderabad offering Panchakarma therapy, Nadi Pariksha, and holistic Ayurveda treatments for digestive disorders, joint pain, skin problems, and women's health.",
+      "keywords": "Ayurvedic clinic Hyderabad, Panchakarma treatment Miyapur, Ayurveda, Nadi Pariksha, herbal medicine, natural healing, Dr. Shreya Kulkarni"
+    },
+    "hero": {
+      "tagline": "Ancient Wisdom for Modern Wellness",
+      "title": "Embrace Natural Healing with",
+      "highlight": "Ayurveda",
+      "description": "Experience authentic Panchakarma therapy and holistic Ayurvedic treatments at Shri Vishwa Nakshatra Ayurvedic Clinic, Hyderabad."
+    },
+    "about": {
+      "subtitle": "About Our Clinic",
+      "title": "Traditional Ayurvedic Healing in Modern Times",
+      "description1": "At Shri Vishwa Nakshatra Ayurvedic Clinic & Panchakarma Centre, we bring the ancient science of Ayurveda to address modern health challenges. Under the expert guidance of",
+      "doctorName": "Dr. Shreya Kulkarni",
+      "credentials": "(B.A.M.S., CYS)",
+      "description2": ", we offer authentic treatments rooted in traditional knowledge.",
+      "specializations": "Our specializations include Panchakarma therapies, Nadi Pariksha (pulse diagnosis), Suvarna Prashan Sanskar for children, and personalized Ayurvedic diet and lifestyle planning."
+    },
+    "conditions": {
+      "digestive": "Digestive Disorders",
+      "joint": "Joint Pain & Arthritis",
+      "skin": "Skin Problems",
+      "women": "Women's Health",
+      "stress": "Stress & Anxiety",
+      "children": "Children's Health"
+    },
+    "treatments": {
+      "basti": {
+        "name": "Basti",
+        "description": "Medicated enema therapy"
+      },
+      "nasya": {
+        "name": "Nasya",
+        "description": "Nasal administration therapy"
+      },
+      "virechana": {
+        "name": "Virechana",
+        "description": "Purgation therapy"
+      },
+      "vamana": {
+        "name": "Vamana",
+        "description": "Therapeutic emesis"
+      }
+    },
+    "services": {
+      "subtitle": "Our Services",
+      "title": "Holistic Ayurvedic Treatments",
+      "description": "Discover our range of authentic Ayurvedic therapies designed to restore balance and promote natural healing.",
+      "panchakarma": {
+        "title": "Panchakarma Therapy",
+        "description": "Traditional detoxification and rejuvenation therapy including Vamana, Virechana, Basti, Nasya, and Raktamokshana."
+      },
+      "nadi": {
+        "title": "Nadi Pariksha",
+        "description": "Ancient pulse diagnosis technique to understand your unique body constitution and health imbalances."
+      },
+      "herbal": {
+        "title": "Herbal Treatments",
+        "description": "Personalized herbal formulations and natural remedies for holistic healing and wellness."
+      }
+    },
+    "doctor": {
+      "subtitle": "Meet Our Expert",
+      "name": "Dr. Shreya Kulkarni",
+      "credentials": "B.A.M.S. | CYS",
+      "title": "Ayurvedacharya, Nadi Tadnya & Panchakarma Specialist",
+      "training": "Gurukul Parangat @ Dr. Samir Jamadagni, Pune",
+      "registration": "Registration No: PR-1408/A/2022"
+    },
+    "cta": {
+      "title": "Begin Your Healing Journey Today",
+      "description": "Take the first step towards natural wellness. Book a consultation with our Ayurvedic experts."
+    }
+  },
+  "services": {
+    "meta": {
+      "title": "Ayurvedic Services & Panchakarma Treatments | Shri Vishwa Nakshatra Clinic",
+      "description": "Explore our comprehensive Ayurvedic services including Panchakarma (Basti, Vamana, Virechana, Nasya, Raktamokshana), Nadi Pariksha, Suvarna Prashan, and personalized herbal treatments in Hyderabad.",
+      "keywords": "Panchakarma Hyderabad, Ayurvedic treatment, Vamana therapy, Virechana, Basti, Nasya, Nadi Pariksha, Suvarna Prashan, herbal medicine"
+    },
+    "hero": {
+      "subtitle": "Our Services",
+      "title": "Comprehensive Ayurvedic Treatments",
+      "description": "Discover our range of authentic Ayurvedic therapies designed to restore balance, detoxify your body, and promote natural healing through time-tested methods."
+    },
+    "panchakarma": {
+      "subtitle": "Detoxification & Rejuvenation",
+      "title": "Panchakarma Therapies",
+      "description": "The five sacred cleansing procedures that form the foundation of Ayurvedic healing.",
+      "basti": {
+        "title": "Basti (Enema Therapy)",
+        "description": "Medicated enema for detoxification and treating Vata disorders, joint pain, and digestive issues.",
+        "treatments": ["Constipation", "Lower back pain", "Arthritis"]
+      },
+      "vamana": {
+        "title": "Vamana (Emesis Therapy)",
+        "description": "Therapeutic vomiting to eliminate excess Kapha dosha from the body.",
+        "treatments": ["Respiratory issues", "Skin disorders", "Obesity"]
+      },
+      "virechana": {
+        "title": "Virechana (Purgation)",
+        "description": "Controlled purgation to cleanse the digestive system and remove Pitta toxins.",
+        "treatments": ["Acidity", "Skin problems", "Liver disorders"]
+      },
+      "nasya": {
+        "title": "Nasya (Nasal Therapy)",
+        "description": "Administration of medicated oils through the nose for head and neck ailments.",
+        "treatments": ["Sinusitis", "Migraines", "Hair problems"]
+      },
+      "raktamokshana": {
+        "title": "Raktamokshana",
+        "description": "Blood purification therapy for skin diseases and blood-related disorders.",
+        "treatments": ["Eczema", "Psoriasis", "Blood impurities"]
+      }
+    },
+    "specialized": {
+      "subtitle": "Specialized Care",
+      "title": "Additional Services",
+      "description": "Beyond Panchakarma, we offer specialized diagnostic and treatment services.",
+      "nadi": {
+        "title": "Nadi Pariksha",
+        "description": "Ancient pulse diagnosis to understand your body constitution (Prakriti) and current imbalances (Vikriti)."
+      },
+      "suvarna": {
+        "title": "Suvarna Prashan Sanskar",
+        "description": "Gold-based immune boosting therapy for children to enhance immunity, memory, and overall development."
+      },
+      "diet": {
+        "title": "Ayurvedic Diet Planning",
+        "description": "Personalized diet and lifestyle recommendations based on your dosha type for optimal health."
+      },
+      "herbal": {
+        "title": "Herbal Treatments",
+        "description": "Custom herbal formulations and natural remedies prepared from authentic Ayurvedic herbs."
+      }
+    },
+    "conditions": {
+      "subtitle": "We Can Help",
+      "title": "Conditions We Treat",
+      "description": "Our Ayurvedic treatments address a wide range of health conditions naturally.",
+      "digestive": {
+        "title": "Digestive Disorders",
+        "items": ["Constipation", "Acidity & Gastritis", "Indigestion", "IBS", "Ulcers"]
+      },
+      "vaat": {
+        "title": "Vaat Disorders",
+        "items": ["Joint Pain", "Sciatica", "Cervical Spondylosis", "Osteoarthritis", "Rheumatoid Arthritis"]
+      },
+      "women": {
+        "title": "Women's Health",
+        "items": ["PCOD/PCOS", "Menstrual Problems", "Infertility", "Hormonal Imbalance", "Pregnancy Care"]
+      },
+      "skin": {
+        "title": "Skin Disorders",
+        "items": ["Pimples", "Eczema", "Psoriasis", "Vitiligo", "Fungal Infections"]
+      },
+      "mental": {
+        "title": "Mental Health",
+        "items": ["Stress", "Depression", "Anxiety", "Sleep Issues", "Emotional Imbalance"]
+      },
+      "children": {
+        "title": "Children's Health",
+        "items": ["Poor Immunity", "Low Appetite", "Concentration Issues", "Growth Problems", "Recurrent Cold"]
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Healing Journey?",
+      "description": "Book a consultation to receive personalized treatment recommendations based on your unique health needs."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us | Shri Vishwa Nakshatra Ayurvedic Clinic Hyderabad",
+      "description": "Contact Shri Vishwa Nakshatra Ayurvedic Clinic in Miyapur, Hyderabad for appointments and consultations. Call +91 9912342125 or visit us at Mee Seva Rd, Friends Colony.",
+      "keywords": "Ayurvedic clinic contact, Panchakarma center Miyapur, Ayurveda Hyderabad appointment, Dr. Shreya Kulkarni contact"
+    },
+    "hero": {
+      "subtitle": "Get In Touch",
+      "title": "Contact Us",
+      "description": "Have questions about our Ayurvedic treatments? Ready to book an appointment? We're here to help you on your wellness journey."
+    },
+    "info": {
+      "title": "Reach Out to Us",
+      "mapTitle": "Clinic Location"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "description": "Fill out the form below and we'll get back to you within 24 hours.",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+91 XXXXX XXXXX",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your health concerns or questions..."
+    },
+    "validation": {
+      "nameMin": "Name must be at least 2 characters",
+      "nameMax": "Name must be less than 100 characters",
+      "nameInvalid": "Name can only contain letters, spaces, hyphens, and apostrophes",
+      "emailInvalid": "Please enter a valid email address",
+      "emailMax": "Email must be less than 255 characters",
+      "phoneMin": "Phone number must be at least 10 digits",
+      "phoneMax": "Phone number must be less than 15 digits",
+      "phoneInvalid": "Please enter a valid phone number",
+      "messageMin": "Message must be at least 10 characters",
+      "messageMax": "Message must be less than 1000 characters"
+    },
+    "toast": {
+      "success": "Message Sent Successfully!",
+      "successDescription": "We will get back to you within 24 hours."
+    },
+    "cta": {
+      "title": "Prefer to Talk Directly?",
+      "description": "Call us now to speak with our team and schedule your appointment."
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Oops! Page not found"
+  }
+}
