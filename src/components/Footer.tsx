@@ -4,6 +4,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Footer = () => {
   const { t } = useTranslation();
+  const logoUrl = `${import.meta.env.BASE_URL}logo.jpeg`;
 
   return (
     <footer className="bg-primary text-primary-foreground">
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/logo.jpeg"
+                src={logoUrl}
                 alt="Shri Vishwa Nakshatra Logo"
                 className="w-10 h-10 object-contain"
               />

@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 import { Menu, X, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const logoUrl = `${import.meta.env.BASE_URL}logo.jpeg`;
   const location = useLocation();
   const { t } = useTranslation();
 
@@ -51,7 +51,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="/logo.jpeg"
+              src={logoUrl}
               alt="Shri Vishwa Nakshatra Logo"
               className="w-12 h-12 object-contain"
             />
