@@ -119,6 +119,65 @@
     "cta": {
       "title": "Begin Your Healing Journey Today",
       "description": "Take the first step towards natural wellness. Book a consultation with our Ayurvedic experts."
+    },
+    "gallery": {
+      "title": "Our Clinic",
+      "subtitle": "Take a virtual tour of our modern Ayurvedic clinic with traditional healing ambiance."
+    },
+    "reviews": {
+      "title": "What Our Patients Say",
+      "subtitle": "Real experiences from patients who have found relief and wellness through our Ayurvedic treatments.",
+      "items": [
+        {
+          "name": "Rajesh Kumar",
+          "location": "Miyapur, Hyderabad",
+          "rating": 5,
+          "text": "After years of suffering from chronic back pain, Dr. Shreya's Panchakarma treatment gave me relief within weeks. The Basti therapy was very effective. Highly recommended!",
+          "treatment": "Panchakarma - Basti Therapy"
+        },
+        {
+          "name": "Priya Sharma",
+          "location": "Kondapur, Hyderabad",
+          "rating": 5,
+          "text": "I was struggling with PCOD for 3 years. The personalized Ayurvedic treatment and diet plan helped regulate my cycles naturally. Thank you Dr. Shreya!",
+          "treatment": "Women's Health - PCOD Treatment"
+        },
+        {
+          "name": "Venkat Rao",
+          "location": "Kukatpally, Hyderabad",
+          "rating": 5,
+          "text": "The Nadi Pariksha diagnosis was incredibly accurate. Dr. Shreya identified my digestive issues precisely and the herbal medicines worked wonders.",
+          "treatment": "Nadi Pariksha & Herbal Treatment"
+        },
+        {
+          "name": "Sunitha Reddy",
+          "location": "Gachibowli, Hyderabad",
+          "rating": 5,
+          "text": "My son's immunity has improved significantly after Suvarna Prashan. He used to fall sick frequently, but not anymore. Very grateful to the clinic.",
+          "treatment": "Suvarna Prashan Sanskar"
+        },
+        {
+          "name": "Mohammed Aziz",
+          "location": "KPHB, Hyderabad",
+          "rating": 5,
+          "text": "Virechana therapy helped me get rid of chronic acidity and skin problems. The staff is very caring and the clinic is very clean.",
+          "treatment": "Panchakarma - Virechana"
+        },
+        {
+          "name": "Lakshmi Devi",
+          "location": "Bachupally, Hyderabad",
+          "rating": 5,
+          "text": "I had severe joint pain due to arthritis. The combination of Basti and herbal oils gave me 80% relief. Can walk without pain now!",
+          "treatment": "Joint Pain - Arthritis Treatment"
+        }
+      ]
+    },
+    "therapyDetails": {
+      "learnMore": "Learn More",
+      "benefits": "Benefits",
+      "procedure": "Procedure",
+      "duration": "Duration",
+      "idealFor": "Ideal For"
     }
   },
   "services": {
@@ -139,27 +198,62 @@
       "basti": {
         "title": "Basti (Enema Therapy)",
         "description": "Medicated enema for detoxification and treating Vata disorders, joint pain, and digestive issues.",
-        "treatments": ["Constipation", "Lower back pain", "Arthritis"]
+        "treatments": ["Constipation", "Lower back pain", "Arthritis"],
+        "details": {
+          "fullDescription": "Basti is considered the most important of all Panchakarma treatments and is especially effective for Vata disorders. It involves administration of medicated oils, ghee, or herbal decoctions through the rectum, which helps cleanse the colon and nourish the body tissues.",
+          "benefits": ["Relieves chronic constipation", "Reduces lower back pain and sciatica", "Improves joint mobility", "Balances Vata dosha", "Enhances digestion and absorption", "Promotes overall vitality"],
+          "procedure": "The treatment begins with a gentle abdominal massage with warm medicated oil, followed by administration of the medicated enema. The patient rests for a specific duration before elimination.",
+          "duration": "30-45 minutes per session, typically 8-16 sessions",
+          "idealFor": "People suffering from Vata disorders, chronic constipation, lower back pain, joint problems, and neurological conditions"
+        }
       },
       "vamana": {
         "title": "Vamana (Emesis Therapy)",
         "description": "Therapeutic vomiting to eliminate excess Kapha dosha from the body.",
-        "treatments": ["Respiratory issues", "Skin disorders", "Obesity"]
+        "treatments": ["Respiratory issues", "Skin disorders", "Obesity"],
+        "details": {
+          "fullDescription": "Vamana is a controlled therapeutic emesis procedure that eliminates excess Kapha dosha from the body. It is particularly beneficial for respiratory disorders, skin conditions, and metabolic issues caused by Kapha imbalance.",
+          "benefits": ["Clears respiratory congestion", "Improves skin health and complexion", "Aids in weight management", "Balances Kapha dosha", "Relieves allergies and asthma", "Enhances mental clarity"],
+          "procedure": "After proper preparation with internal oleation and sweating therapies, the patient is given emetic medicines to induce controlled vomiting, eliminating toxins from the upper body.",
+          "duration": "2-3 hours for main procedure, with 7-day preparation",
+          "idealFor": "People with respiratory problems, chronic cold, asthma, skin diseases, obesity, and diabetes"
+        }
       },
       "virechana": {
         "title": "Virechana (Purgation)",
         "description": "Controlled purgation to cleanse the digestive system and remove Pitta toxins.",
-        "treatments": ["Acidity", "Skin problems", "Liver disorders"]
+        "treatments": ["Acidity", "Skin problems", "Liver disorders"],
+        "details": {
+          "fullDescription": "Virechana is a controlled purgation therapy that cleanses the Pitta dosha and removes toxins accumulated in the liver and gallbladder. It is highly effective for treating skin disorders, digestive issues, and Pitta-related conditions.",
+          "benefits": ["Treats chronic skin disorders", "Relieves acidity and heartburn", "Improves liver function", "Balances Pitta dosha", "Clears complexion and skin glow", "Reduces inflammation in the body"],
+          "procedure": "Following internal oleation for 3-7 days, purgative medicines are administered to induce controlled bowel movements, eliminating accumulated toxins from the GI tract.",
+          "duration": "1 day for main procedure, with 3-7 days preparation",
+          "idealFor": "People with skin diseases, chronic acidity, liver disorders, jaundice, and inflammatory conditions"
+        }
       },
       "nasya": {
         "title": "Nasya (Nasal Therapy)",
         "description": "Administration of medicated oils through the nose for head and neck ailments.",
-        "treatments": ["Sinusitis", "Migraines", "Hair problems"]
+        "treatments": ["Sinusitis", "Migraines", "Hair problems"],
+        "details": {
+          "fullDescription": "Nasya is a therapeutic procedure where medicated oils, powders, or herbal juices are administered through the nasal passage. The nose is considered the gateway to the head, and this therapy effectively treats disorders above the clavicle.",
+          "benefits": ["Clears sinuses and nasal congestion", "Relieves chronic headaches and migraines", "Improves memory and concentration", "Treats hair fall and premature greying", "Strengthens sensory organs", "Reduces stress and promotes mental clarity"],
+          "procedure": "Facial massage and steam therapy precede the nasal administration of medicated oils. The patient lies with head tilted back while drops are instilled in each nostril.",
+          "duration": "30-45 minutes per session, typically 7-14 sessions",
+          "idealFor": "People with sinusitis, migraines, hair problems, neurological disorders, and ENT conditions"
+        }
       },
       "raktamokshana": {
         "title": "Raktamokshana",
         "description": "Blood purification therapy for skin diseases and blood-related disorders.",
-        "treatments": ["Eczema", "Psoriasis", "Blood impurities"]
+        "treatments": ["Eczema", "Psoriasis", "Blood impurities"],
+        "details": {
+          "fullDescription": "Raktamokshana is a blood purification therapy that removes vitiated blood from the body. It is highly effective for treating skin diseases, gout, and conditions caused by blood toxicity. Various methods including leech therapy may be used.",
+          "benefits": ["Purifies blood and removes toxins", "Treats chronic skin diseases", "Reduces inflammation and swelling", "Relieves gout and arthritis pain", "Improves skin complexion", "Treats varicose veins"],
+          "procedure": "After proper assessment, blood letting is done through various methods depending on the condition. Leech therapy (Jalaukavacharana) is the most gentle and commonly used method.",
+          "duration": "30-60 minutes per session, sessions as needed",
+          "idealFor": "People with chronic skin diseases, eczema, psoriasis, gout, and blood-related disorders"
+        }
       }
     },
     "specialized": {

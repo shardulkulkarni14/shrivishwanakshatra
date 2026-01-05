@@ -16,41 +16,17 @@ import {
   ArrowRight,
 } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
+import TherapyCard from "@/components/TherapyCard";
 
 const Services = () => {
   const { t } = useTranslation();
 
-  const panchakarmaServices = [
-    {
-      icon: Droplets,
-      title: t("services.panchakarma.basti.title"),
-      description: t("services.panchakarma.basti.description"),
-      treatments: t("services.panchakarma.basti.treatments", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Sparkles,
-      title: t("services.panchakarma.vamana.title"),
-      description: t("services.panchakarma.vamana.description"),
-      treatments: t("services.panchakarma.vamana.treatments", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Activity,
-      title: t("services.panchakarma.virechana.title"),
-      description: t("services.panchakarma.virechana.description"),
-      treatments: t("services.panchakarma.virechana.treatments", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Wind,
-      title: t("services.panchakarma.nasya.title"),
-      description: t("services.panchakarma.nasya.description"),
-      treatments: t("services.panchakarma.nasya.treatments", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Heart,
-      title: t("services.panchakarma.raktamokshana.title"),
-      description: t("services.panchakarma.raktamokshana.description"),
-      treatments: t("services.panchakarma.raktamokshana.treatments", { returnObjects: true }) as string[],
-    },
+  const panchakarmaTherapies = [
+    { key: "basti", icon: <Droplets className="h-6 w-6" /> },
+    { key: "vamana", icon: <Sparkles className="h-6 w-6" /> },
+    { key: "virechana", icon: <Activity className="h-6 w-6" /> },
+    { key: "nasya", icon: <Wind className="h-6 w-6" /> },
+    { key: "raktamokshana", icon: <Heart className="h-6 w-6" /> },
   ];
 
   const specializedServices = [
@@ -147,14 +123,14 @@ const Services = () => {
                 {t("services.panchakarma.description")}
               </p>
             </div>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {panchakarmaServices.map((service, index) => (
+            <div className="grid md:grid-cols-2 gap-6">
+              {panchakarmaTherapies.map((therapy, index) => (
                 <div
-                  key={index}
+                  key={therapy.key}
                   className="animate-fade-up"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <ServiceCard {...service} />
+                  <TherapyCard therapyKey={therapy.key} icon={therapy.icon} />
                 </div>
               ))}
             </div>

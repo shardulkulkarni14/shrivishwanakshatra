@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button";
 import { Sparkles, Heart, Users, Award, ArrowRight, Leaf, Droplets, Wind } from "lucide-react";
 import heroImage from "@/assets/hero-ayurveda.jpg";
 import ServiceCard from "@/components/ServiceCard";
+import ImageGallery from "@/components/ImageGallery";
+import Reviews from "@/components/Reviews";
 
 const Index = () => {
   const { t } = useTranslation();
@@ -176,6 +178,12 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Image Gallery */}
+        <ImageGallery />
+
+        {/* Reviews Section */}
+        <Reviews />
 
         {/* Doctor Section */}
         <section className="py-16 md:py-24 bg-background">
